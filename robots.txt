@@ -3,3 +3,5 @@ User-agent: *
 
 Disallow: /
 
+User-agent: LinkedInBot
+Allow: /
