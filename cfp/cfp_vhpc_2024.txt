@@ -172,7 +172,7 @@ accompanied by interactive demonstrations.
 
 Important Dates
 
-rolling abstract submission 
+Rolling abstract submission 
 May 20th, 2024 AoE (extended) - Paper submission deadline
 Jun 20th, 2024 - Acceptance notification
 Jul 1st, 2024 - Camera-ready due
@@ -253,3 +253,4 @@ https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guideli
 
 Follow VHPC Updates on X:
 https://x.com/VHPCworkshop
+
