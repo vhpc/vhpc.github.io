@@ -1,0 +1,255 @@
+
+====================================================================
+CALL FOR PAPERS
+
+19th Workshop on Virtualization in High­-Performance Cloud Computing
+(VHPC '24) held in conjunction with the European Conference on
+Parallel and Distributed Computing Aug 26-30, 2024, Madrid, Spain.
+(Springer LNCS Proceedings)
+
+====================================================================
+
+Paper submission deadline: May 20th, 2024 AoE (extended)
+
+Date: August 26, 27, 2024
+Workshop URL: vhpc dot org
+
+To submit an abstract or paper, please follow the link provided
+in the Call for Papers (CfP) announcement at the end of this message.
+
+
+Call for Papers
+
+Containers and virtualization technologies constitute key enabling
+factors for flexible resource management in modern data centers, and
+particularly in cloud environments. Cloud providers need to manage
+complex infrastructures in a seamless fashion to support the highly
+dynamic and heterogeneous workloads and hosted applications customers
+deploy. Similarly, HPC environments have been increasingly adopting
+techniques that enable flexible management of vast computing and
+networking resources, close to marginal provisioning cost, which is
+unprecedented in the history of scientific and commercial computing.
+
+Various virtualization-containerization technologies contribute to
+the overall picture in different ways: machine virtualization, with
+its capability to enable consolidation of multiple under­utilized
+servers with heterogeneous software and operating systems (OSes),
+and its capability to live­-migrate a fully operating virtual machine
+(VM) with a very short downtime, enables novel and dynamic ways to
+manage physical servers; OS-­level virtualization (i.e.,
+containerization), with its capability to isolate multiple user­-space
+environments and to allow for their co­-existence within the same OS
+kernel, promises to provide many of the advantages of machine
+virtualization with high levels of responsiveness and performance;
+lastly, unikernels provide for manyvirtualization benefits with a
+minimized OS/library surface. I/O virtualization, in turn, allows
+physical network interfaces to exchange traffic with multiple VMs
+or containers; network virtualization, with its capability to create
+logical network overlays independently from the underlying physical
+topology, is another fundamental enabling technology for Cloud/HPC
+infrastructures.  Last, storage virtualization needs to evolve to
+support increasingly demanding requirements in terms of performance
+and reliability for the managed application data.
+
+
+Publication
+
+Accepted papers will be published in a Springer LNCS proceedings volume.
+
+Topics of Interest
+
+The VHPC program committee solicits original, high-quality
+submissions related to virtualization across the entire software
+stack with a special focus on the intersection of HPC, containers/
+virtualization and cloud computing.
+
+Each topic encompasses aspects related to design/architecture,
+management, performance management, modeling and\
+configuration/tooling:
+
+Design / Architecture:
+- Containers and OS-level virtualization (LXC, Docker/Podman,
+  Nitro/Firecracke, Singularity)
+- Hypervisor support for heterogeneous resources (GPUs, NPUs,
+  co-processors, FPGAs, etc.)
+- GPU hypervisor memory virtualization in support of high-memory LLM
+  training workloads
+- Hypervisor extensions to mitigate side-channel attacks
+  ([micro-]architectural timing attacks, privilege escalation)
+- Use of Risc-V related technologies for cloud, virtualized and HPC
+  use-cases
+- VM & Container trust and security models
+- Multi-environment coupling, system software supporting in-situ
+  analysis with HPC simulation
+- Cloud reliability, fault-tolerance and high-availability
+- Cloud-based quantum compute services
+- Energy-efficient and power-aware virtualization
+- Containers inside VMs with hypervisor isolation
+- Virtualization support for emerging memory and storage technologies
+- Lightweight/specialized operating systems in conjunction with
+  virtual machines
+- Unikernels and use cases for virtualized HPC environments
+- Formal definition and verification of hypervisors and virtualization
+  system properties 
+- ARM-based hypervisors, ARM virtualization extensions
+
+Management:
+- Container and VM management for HPC and cloud environments
+- Virtualized/Cloudified instances to support Lambda / Function-as-a-
+  Service (FaaS) Paradigms
+- HPC services integration, services to support HPC 
+- Service and on-demand scheduling & resource management
+- Dedicated workload management with VMs or containers
+- Workflow coupling with VMs and containers
+- Unikernels and lightweight VM application management
+- Environments and tools for operating containerized environments
+  (batch, orchestration)
+- Models for non-HPC workload provisioning on HPC resources
+
+Performance Measurements and Modeling:
+- Performance improvements for or driven by unikernels
+- Optimizations of virtual machine monitor platforms and hypervisors
+- Scalability analysis of VMs and/or containers at large scale
+- Performance measurement, modeling and monitoring of virtualized/
+  cloud workloads
+- Virtualization in supercomputing environments, HPC clusters,
+  HPC in the cloud with an emphasis on AI GPUs/TPUs/NPUs
+- Energy-efficient deployment of high-performance, ultra-low
+  latency and real-time workloads in cloud infrastructures
+- Modeling, control and isolation of end-to-end performance for
+  parallel & distributed cloud/HPC applications, including the use of
+  cloud functions / FaaS
+
+Configuration / Tooling:
+- Tool support for unikernels: configuration/build environments,
+  debuggers, profilers
+- Job scheduling/control/policy and container placement in
+  virtualized environments
+- Measuring and controlling "OS/Virtualization noise"
+- Operating MPI in containers/VMs and Unikernels
+- GPU virtualization operationalization
+
+This year, we are calling the timely topic of virtualization in support
+of high-memory LLM training workloads including, but not limited to:
+
+- GPU hypervisor memory virtualization: Techniques for virtualizing GPU
+  memory to allow flexible and efficient allocation across multiple
+  workloads, enabling higher utilization of GPU resources
+- Flat CPU/GPU memory page tables/TLB: Unified virtual memory spaces
+  and page table structures that allow both GPUs to address CPU memory
+  mapped to accelerator global memory space
+- Storage/filesystem to virtual memory mapped approaches
+- Distributed memory virtualization
+- Memory compression and reduction techniques: approaches for
+  compressing model parameters, activations, and gradients to reduce
+  memory requirements during training
+- Out-of-core training algorithms
+- Efficient memory allocation and management: Techniques for optimizing
+  memory allocation, reducing fragmentation, and improving memory
+  utilization during training
+- Memory-efficient data formats and processing: Data formats and
+  processing techniques that minimize memory overhead while maintaining
+  training efficiency
+- Benchmarking and profiling tools: Tools and methodologies for
+  measuring, analyzing, and optimizing memory usage in
+  LLM training workloads
+- Case studies and applications: Real-world examples and applications of
+  virtualization techniques in LLM training scenarios
+
+
+The Workshop on Virtualization in High­-Performance Cloud Computing
+(VHPC) aims to bring together researchers and industrial practitioners
+facing the challenges posed by virtualization in order to foster
+discussion, collaboration, mutual exchange of knowledge and
+experience, enabling research to ultimately provide novel solutions
+for virtualized computing systems of tomorrow.
+
+The workshop will be one day in length, composed of 20 min paper
+presentations, each followed by 10 min discussion sections, plus
+lightning talks that are limited to 5 minutes. Presentations may be
+accompanied by interactive demonstrations.
+
+
+Important Dates
+
+rolling abstract submission 
+May 20th, 2024 AoE (extended) - Paper submission deadline
+Jun 20th, 2024 - Acceptance notification
+Jul 1st, 2024 - Camera-ready due
+Aug 26th-27th, 2024 - Workshop Day(s)
+
+Chair
+
+Michael Alexander (chair), Austrian Academy of Sciences
+Anastassios Nanos (co-chair), Nubificus Ltd., UK
+Tommaso Cucinotta (co-chair), Scuola Superiore Sant'Anna, Italy
+
+Publicity chair
+
+Remo Andreoli, Scuola Superiore Sant'Anna, Italy
+
+Technical Program Committee
+
+- Stergios Anastasiadis, University of Ioannina, Greece
+- Gabriele Ara, Scuola Superiore Sant'Anna
+- Jakob Blomer, CERN, Switzerland
+- Eduardo César, Universidad Autonoma de Barcelona, Spain
+- Taylor Childers, Argonne National Laboratory, USA
+- François Diakhaté, CEA DAM, France
+- Roberto Giorgi, University of Siena, Italy
+- Kyle Hale, Northwestern University, USA
+- Giuseppe Lettieri, University of Pisa, Italy
+- Nikos Parlavantzas, IRISA, France
+- Amer Qouneh, Western New England University, USA
+- Carlos Reaño, Queen’s University Belfast, UK
+- Riccardo Rocha, CERN, Switzerland
+- Lutz Schubert, University of Ulm, Germany
+- Jonathan Sparks, Cray, USA
+- Kurt Tutschku, Blekinge Institute of Technology, Sweden
+- John Walters, USC ISI, USA
+- Yasuhiro Watashiba, Osaka University, Japan
+- Chao-Tung Yang, Tunghai University, Taiwan
+
+
+Paper Submission-Publication
+
+Papers submitted to the workshop will be reviewed by at least two
+members of the program committee and external reviewers. Submissions
+should include abstract, keywords, the e-mail address of the
+corresponding author, and must not exceed 12 pages, including tables
+and figures at a main font size no smaller than 11 points. 
+
+Submission of a paper should be regarded as a commitment that, should
+the paper be accepted, at least one of the authors will register and
+attend the conference to present the work. 
+
+Accepted papers will be published in a Springer LNCS volume. Initial
+submissions are in PDF; authors of accepted papers will be requested
+to provide source files. 
+
+
+Lightning Talks
+
+Lightning Talks are in a non-paper track, synoptical in nature and are
+strictly limited to 5 minutes. They can be used to gain early feedback
+on ongoing research, for demonstrations, to present research results,
+early research ideas, perspectives and positions of interest to the
+community. Submit abstracts via the main submission link.
+
+General Information
+
+The workshop will be held in conjunction with the International European
+Conference on Parallel and Distributed Computing on Aug 26-30, 2024,
+Madrid, Spain.
+
+Please contact ahead of time for presenting remotely via video.  
+
+
+Abstract, Paper Submission Link:
+https://edas.info/newPaper.php?c=31582
+
+LNCS Format Guidelines:
+https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines
+
+Follow VHPC Updates on X:
+https://x.com/VHPCworkshop
