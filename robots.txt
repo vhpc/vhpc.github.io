@@ -3,11 +3,11 @@ User-agent: *
 
 Allow: /
 
-User-agent: LinkedInBot
-Allow: /
+#User-agent: LinkedInBot
+#Allow: /
 
-User-agent: FacebookBot
-Allow: /
+#User-agent: FacebookBot
+#Allow: /
 
-User-agent: Googlebot
-Disallow: /nogooglebot/
+#User-agent: Googlebot
+#Disallow: /nogooglebot/
