@@ -1,4 +1,3 @@
-
 ====================================================================
 CALL FOR PAPERS
 
@@ -194,6 +193,7 @@ Technical Program Committee
 - Gabriele Ara, Scuola Superiore Sant'Anna
 - Jakob Blomer, CERN, Switzerland
 - Eduardo César, Universidad Autonoma de Barcelona, Spain
+- Anthony Chazapis, FORTH-ICS, Greece
 - Taylor Childers, Argonne National Laboratory, USA
 - François Diakhaté, CEA DAM, France
 - Roberto Giorgi, University of Siena, Italy
@@ -253,4 +253,3 @@ https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guideli
 
 Follow VHPC Updates on X:
 https://x.com/VHPCworkshop
-
