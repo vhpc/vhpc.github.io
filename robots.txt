@@ -1,10 +1,13 @@
 User-agent: *
 # robotstxt.org - if ENV production variable is false robots will be disallowed.
 
-Disallow: /
+Allow: /
 
 User-agent: LinkedInBot
 Allow: /
 
 User-agent: FacebookBot
 Allow: /
+
+User-agent: Googlebot
+Disallow: /nogooglebot/
