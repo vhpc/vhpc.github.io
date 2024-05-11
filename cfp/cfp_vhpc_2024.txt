@@ -190,7 +190,8 @@ Remo Andreoli, Scuola Superiore Sant'Anna, Italy
 Technical Program Committee
 
 - Stergios Anastasiadis, University of Ioannina, Greece
-- Gabriele Ara, Scuola Superiore Sant'Anna
+- Gabriele Ara, Scuola Superiore Sant'Anna, Italy
+- Shyam Burkule, Meta, USA
 - Jakob Blomer, CERN, Switzerland
 - Eduardo César, Universidad Autonoma de Barcelona, Spain
 - Anthony Chazapis, FORTH-ICS, Greece
