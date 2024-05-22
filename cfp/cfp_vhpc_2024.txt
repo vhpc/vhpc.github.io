@@ -8,7 +8,7 @@ Parallel and Distributed Computing Aug 26-30, 2024, Madrid, Spain.
 
 ====================================================================
 
-Paper submission deadline: May 20th, 2024 AoE (extended)
+Paper submission deadline: Jun 7th, 2024 AoE (extended)
 
 Date: August 26, 27, 2024
 Workshop URL: vhpc dot org
@@ -172,7 +172,7 @@ accompanied by interactive demonstrations.
 Important Dates
 
 Rolling abstract submission 
-May 20th, 2024 AoE (extended) - Paper submission deadline
+Jun 7th, 2024 AoE (extended) - Paper submission deadline
 Jun 20th, 2024 - Acceptance notification
 Jul 1st, 2024 - Camera-ready due
 Aug 26th-27th, 2024 - Workshop Day(s)
